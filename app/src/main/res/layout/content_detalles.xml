@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mx.com.profeluismitre.agendapestanas.DetallesActivity"
+    tools:showIn="@layout/activity_detalles"
+    android:orientation="vertical"
+    android:background="@drawable/fondoagenda"
+    android:gravity="center|top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono: "
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/txtTelDetalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El Telefono por Favor"
+        android:textSize="@dimen/tamanoLetra" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textSize="@dimen/tamanoLetra" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tamanoLetra" />
+        <TextView
+            android:id="@+id/txtNombreDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui va el Nombre"
+            android:textSize="@dimen/tamanoLetra" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos: "
+            android:textSize="@dimen/tamanoLetra" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtApellidosDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui el Apellido"
+            android:textSize="@dimen/tamanoLetra" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad: "
+            android:textSize="@dimen/tamanoLetra" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtEdadDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui la Edad"
+            android:textSize="@dimen/tamanoLetra" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo: "
+            android:textSize="@dimen/tamanoLetra" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtCorreoDetalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu E-MAIL"
+            android:textSize="@dimen/tamanoLetra" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:id="@+id/btnRegresarDetalles"
+            android:textSize="@dimen/tamanoLetraBoton"/>
+
+
+
+</LinearLayout>

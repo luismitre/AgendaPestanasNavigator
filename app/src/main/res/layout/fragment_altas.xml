@@ -1,0 +1,106 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AltasFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALTAS"
+        android:textSize="40dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNombreAltas" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtApellidoAltas" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/txtEdadAltas" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:id="@+id/txtTelAltas" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/txtCorreoAltas" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textSize="@dimen/tamanoLetraBoton"
+            android:id="@+id/btnCancelarAltas" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGrabarAltas"
+            android:textSize="@dimen/tamanoLetraBoton"
+            android:text="Grabar"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

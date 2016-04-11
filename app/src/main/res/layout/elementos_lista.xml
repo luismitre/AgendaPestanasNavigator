@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtNombreConsultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui va el Nombre"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos: "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtApellidosConsultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui el Apellido"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad: "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtEdadConsultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aqui la Edad"
+            android:textSize="20dp" />
+    </LinearLayout>
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono: "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtTelConsultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El Telefono por Favor"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo: "
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtCorreoConsultas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tu E-MAIL"
+            android:textSize="20dp" />
+    </LinearLayout>
+-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="------------------------------------"
+        android:textSize="15dp" />
+    </LinearLayout>

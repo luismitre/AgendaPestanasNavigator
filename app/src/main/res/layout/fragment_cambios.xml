@@ -1,0 +1,122 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiosFragment">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:gravity="center|top">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAMBIOS"
+        android:textSize="35dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Telefono:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTelefonoCambios"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnBuscarCambios"
+            android:background="@drawable/lupa2"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNombreCambios"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtApellidoCambios"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEdadCambios"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo:"
+            android:textSize="@dimen/tamanoLetra"/>
+        <EditText
+            android:layout_width="@dimen/dimensionEditText"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCorreoCambios"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:textSize="@dimen/tamanoLetraBoton"
+            android:id="@+id/btnCancelarCambios"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grabar"
+            android:textSize="@dimen/tamanoLetraBoton"
+            android:id="@+id/btnEliminarCambios"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
